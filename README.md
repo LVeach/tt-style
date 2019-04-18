@@ -38,7 +38,7 @@ Go inside `starter-gatsbyjs-material-kit/` directory and run the following comma
 The site is now running at
 [http://localhost:8000](http://localhost:8000).
 
-Open `fullstack-gatsbyjs/` directory in your code editor of choice and edit it. 
+Open `starter-gatsbyjs-material-kit/` directory in your code editor of choice and edit it. 
 Save your changes and the changes will be reflected in the browser without manual refresh!
 
 ### Configure FTP deployment 
@@ -61,8 +61,14 @@ var config = {
 }
 ```
 
+## Need More staters?
+- Gatsby Emma (Html5 Up): [Demo](https://starter-gatsbyjs-emma.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-emma)
+- Gatsby Dimension (Html5 Up): [Demo](https://starter-gatsbyjs-dimension.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-dimension)
+- Gatsby Starta (Html5 Up): [Demo](https://starter-gatsbyjs-strata.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-strata)
+- Gatsby Jodie (Html5 Up): [Demo](https://starter-gatsbyjs-jodie.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-jodie)
+
 ## Support
-Open a new issuehere. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
+Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
 ---
 Made with ♥ by [AppSeed.us]("https://appseed.us")
