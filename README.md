@@ -2,7 +2,7 @@
 
 > A Quick Way to bootstrap your next Gatsby app. Provided by [AppSeed.us](https://appseed.us?ref=github) 
 
-![ss](https://static.appseed.us/misc/thumb-gatsby-material-kit.png)
+![ss](https://static.appseed.us/misc/starter-gatsby-material-kit.png)
 
 ## Demo 💯
 
