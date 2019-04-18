@@ -10,7 +10,7 @@
 
 ## Features 🚀
 
-This is a simplified Gatsby app based on Material-Kit design ( by Creative-Tim)
+This is a simplified Gatsby app based on Material-Kit design (by Creative-Tim)
 
 ## How to use it? 👨‍💻
 
@@ -61,10 +61,10 @@ var config = {
 }
 ```
 
-## Need More staters?
+## Need More starters?
 - Gatsby Emma (Html5 Up): [Demo](https://starter-gatsbyjs-emma.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-emma)
 - Gatsby Dimension (Html5 Up): [Demo](https://starter-gatsbyjs-dimension.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-dimension)
-- Gatsby Starta (Html5 Up): [Demo](https://starter-gatsbyjs-strata.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-strata)
+- Gatsby Strata (Html5 Up): [Demo](https://starter-gatsbyjs-strata.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-strata)
 - Gatsby Jodie (Html5 Up): [Demo](https://starter-gatsbyjs-jodie.appseed.us/), [Sources](https://github.com/rosoftdeveloper/starter-gatsbyjs-jodie)
 
 ## Support
