@@ -4,6 +4,7 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: [
+    
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-offline',
@@ -20,5 +21,6 @@ module.exports = {
         icon: 'src/assets/img/favicon.png', // This path is relative to the root of the site.
       },
     },
+    `gatsby-mdx`,
   ],
 }

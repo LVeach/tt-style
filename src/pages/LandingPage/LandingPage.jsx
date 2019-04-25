@@ -16,6 +16,7 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks2 from "components/Header/HeaderLinks2.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
@@ -24,7 +25,7 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
-
+import Login from "../LoginPage/LoginPage.jsx"
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
@@ -35,19 +36,20 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Material Kit React"
-          rightLinks={<HeaderLinks />}
+          brand="toptender.com"
+          rightLinks={<HeaderLinks2 />}
+          leftLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
-            height: 400,
+            height: 140,
             color: "white"
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/square6.png")}>
           <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
+            <GridContainer >
+              <GridItem xs={12} sm={12} md={6} >
                 <h1 className={classes.title}>Your Story Starts With Us.</h1>
                 <h4>
                   Every landing page needs a small description after the big
@@ -66,14 +68,25 @@ class LandingPage extends React.Component {
                   <FaPlay/>
                   Watch video
                 </Button>
+                
+              </GridItem>
+              <GridItem xs={12} sm={12} md={6} >
+                <Login />
+                
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div className={classNames(classes.main, classes.mainRaised)} >
           <div className={classes.container}>
             <ProductSection />
             <TeamSection />
+            <ProductSection />
+            
+          
+            <ProductSection />
+            <TeamSection />
+            
             <WorkSection />
           </div>
         </div>

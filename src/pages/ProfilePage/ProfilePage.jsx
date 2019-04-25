@@ -40,14 +40,15 @@ class ProfilePage extends React.Component {
     const imageClasses = classNames(
       classes.imgRaised,
       classes.imgRoundedCircle,
-      classes.imgFluid
+      classes.imgFluid,
+      classes.imgRaised
     );
-    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
+    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery, classes.imgRaised);
     return (
       <div>
         <Header
           color="transparent"
-          brand="Material Kit React"
+          brand="toptender.com"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -138,6 +139,7 @@ class ProfilePage extends React.Component {
                                 alt="..."
                                 src={work1}
                                 className={navImageClasses}
+                                
                               />
                               <img
                                 alt="..."

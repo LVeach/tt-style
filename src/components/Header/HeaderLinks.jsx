@@ -28,18 +28,27 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Courses"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
+            <Link to="/landing-page" className={classes.dropdownLink}>
+              All Courses
             </Link>,
+            <Link to="/profile-page" className={classes.dropdownLink}>
+            General Courses
+          </Link>,
+          <Link to="/login-page" className={classes.dropdownLink}>
+          Brand Courses
+        </Link>,
+        <Link to="/" className={classes.dropdownLink}>
+        Informational Courses
+      </Link>,
             <a
-              href="https://docs.appseed.us"
+              href="#menu-helper.io"
               target="_blank"
               className={classes.dropdownLink}
             >
@@ -48,67 +57,8 @@ function HeaderLinks({ ...props }) {
           ]}
         />
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="https://github.com/rosoftdeveloper/starter-gatsbyjs-material-kit"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <CloudDownload className={classes.icons} /> Download
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            href="https://twitter.com/webappseed"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <FaTwitter/>
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/webappseed"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaFacebook/>
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/webappseed"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaInstagram/>
-          </Button>
-        </Tooltip>
-      </ListItem>
+      
+      
     </List>
   );
 }

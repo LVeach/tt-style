@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "gatsby"
 import {createMemoryHistory} from "history";
 import {Route, Router, Switch} from "react-router-dom";
 
@@ -16,10 +17,10 @@ let hist = createMemoryHistory();
 export default () => (
   <Router history={hist}>
     <Switch>
-      <Route path="/landing-page" component={LandingPage} />
+      <Route path="/Components" component={Components} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
-      <Route path="/" component={Components} />
+      <Route path="/" component={LandingPage} />
     </Switch>
   </Router>
 );
