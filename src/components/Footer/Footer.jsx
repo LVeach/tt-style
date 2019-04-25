@@ -28,33 +28,33 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/"
+                href="#"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                Menu-Helper.io
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://appseed.us"
+                href="#"
                 className={classes.block}
                 target="_blank"
               >
-                AppSeed
+                Pacific DataCraft, Inc
               </a>
             </ListItem>
 
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()}, Get your Full-Stack app with{" "}
+          &copy; {1900 + new Date().getYear()}, teaching machines to do the choores at{" "}
           <a
-            href="https://appseed.us"
+            href="#"
             className={aClasses}
             target="_blank"
           >
-            AppSeed
+            Menu-Helper.io
           </a>{" "}
         </div>
       </div>
